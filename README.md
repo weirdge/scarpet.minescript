@@ -6,4 +6,6 @@
 
 ## [Discover V1](discoverV1.py)
 This program uses teleports to discover the world. It can be useful for WorldMap or Distant Horizons/Voxy
+
 ![How the program works](/src/gridV1.png)
+
