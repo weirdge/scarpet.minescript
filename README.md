@@ -16,7 +16,7 @@ This program uses teleports to discover the world. It can be useful for WorldMap
 
 ---
 ## [Babysit Sweepers V2](babysitSweeperV2.py)
->[!INFO]
+>[!NOTE]
 > - This script requires the [Carpet mod](https://modrinth.com/mod/carpet) and it's [/player](https://github.com/gnembon/fabric-carpet/wiki/Commands#player) command
 > - WorldEater start coordinates have to be set in the file config.
 
