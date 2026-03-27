@@ -42,8 +42,8 @@ class amount():
 directions = [
 amount("east",  abs(math.ceil((weStart-position[0])/(renderDistanceBlocks))),           1,  1, -45,  -135 ),
 amount("south", abs(math.ceil((weStart-position[2])/(renderDistanceBlocks))),           1,  0,  45,   -45 ),
-amount("west",  abs(math.ceil((weStart-weLength+position[0])/(renderDistanceBlocks))), -1,  1, 135,    45 ),
-amount("north", abs(math.ceil((weStart-weLength+position[2])/(renderDistanceBlocks))), -1,  0, 180,  -180 ), # -135 135. This could be removed and replaced with an if/else
+amount("west",  abs(math.ceil((weStart-weLength-position[0])/(renderDistanceBlocks))), -1,  1, 135,    45 ),
+amount("north", abs(math.ceil((weStart-weLength-position[2])/(renderDistanceBlocks))), -1,  0, 180,  -180 ), # -135 135. This could be removed and replaced with an if/else
 ]
 
 

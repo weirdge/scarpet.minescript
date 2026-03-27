@@ -39,6 +39,8 @@ Enter renderDistance, Worldeater length and bot spawn height.
 
 ![Image](/src/gridSweeper.png)
 
+If you come across edge cases where it does not work, please open an issue [here](https://github.com/weirdge/minescript/issues).
+
 
 ---
 ## Misc
