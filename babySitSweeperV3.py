@@ -53,9 +53,9 @@ for i in range(len(directions)):
         print(f"rotation: {relativeRotation}")
         looking = directions[i]
         c = 0
-        for i in range(looking.amount):
-            if i%2==1 or i == looking.amount-1:
+        for j in range(looking.amount):
+            if j%2==1 or j == looking.amount-1:
                 time.sleep(timeInBetweenSpawn)
-                minescript.execute(f"/player {botName}{c} spawn at {position[0]+looking.positive*renderDistanceBlocks*i*looking.position} {botHeight} {position[2]+looking.positive*renderDistanceBlocks*i*int(not looking.position)}")
+                minescript.execute(f"/player {botName}{c} spawn at {position[0]+looking.positive*renderDistanceBlocks*j*looking.position} {botHeight} {position[2]+looking.positive*renderDistanceBlocks*j*int(not looking.position)}")
                 c+=1
         break

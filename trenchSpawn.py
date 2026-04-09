@@ -51,7 +51,7 @@ for i in range(len(directions)):
         print(f"{directions[i].direction}")
         print(f"rotation: {round(relativeRotation)}")
         looking = directions[i]
-        for i in range(count):
+        for j in range(count):
             time.sleep(timeInBetweenSpawn)
-            minescript.execute(f"/player {name}{i} spawn at {finalPos[0]+(i+1)*looking.positive*looking.position} {finalPos[1]} {finalPos[2]+(i+1)*looking.positive*int(not looking.position)} facing {looking.yaw} 45")
+            minescript.execute(f"/player {name}{j} spawn at {finalPos[0]+(j+1)*looking.positive*looking.position} {finalPos[1]} {finalPos[2]+(j+1)*looking.positive*int(not looking.position)} facing {looking.yaw} 45")
         break
