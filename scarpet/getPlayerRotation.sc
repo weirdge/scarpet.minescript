@@ -1,0 +1,1 @@
+__command() -> print(player(), query(player(), 'yaw'));
