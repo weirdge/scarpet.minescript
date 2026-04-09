@@ -65,7 +65,7 @@ Scarpet: `/trench n 12`
 - [Scarpet](#) Coming Soon
 > [!NOTE]  
 > - You have to have Op rights to use this script since it relies on `/tp`
->- The config variable still have to be set in the file. V2 will fix this.
+> - The config variable still have to be set in the file. V2 will fix this.
 
 This program uses teleports to discover the world. It can be useful for WorldMap or Distant Horizons/Voxy.
 
